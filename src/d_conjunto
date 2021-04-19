@@ -1,0 +1,17 @@
+generic
+type keyis (<>); -- tipo discreto
+type item is private;
+package d_conjunto is
+type conjunto is limited private;
+ya_existe:exception;
+no_existe:exception;
+espacio_desbordado:exception;
+procedure cvacio (s:out conjunto);
+procedure poner (s:in out conjunto; k:in key; x:in item);
+procedure consultar(s:in conjunto; k:in key; x:out item);
+procedure borrar(s:in out conjunto; k:in key);
+procedure actualiza(s:in out conjunto; k:in key; x:in item);
+private
+typeconjunto is array(elem) of boolean;
+pragmapack(conjunto);
+end d_conjunto;

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\alumno\pra2\huffman.gpr</vfs_project>
+      <vfs_file>C:\Users\alumno\pra2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 10" >
+      <vfs_project>C:\Users\alumno\pra2\huffman.gpr</vfs_project>
+      <vfs_file>C:\Users\alumno\pra2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 4" >
+      <vfs_project>C:\Users\alumno\pra2\huffman.gpr</vfs_project>
+      <vfs_file>C:\Users\alumno\pra2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 11" >
+      <vfs_project>C:\Users\alumno\pra2\huffman.gpr</vfs_project>
+      <vfs_file>C:\Users\alumno\pra2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 10" >
+      <vfs_project>C:\Users\alumno\pra2\huffman.gpr</vfs_project>
+      <vfs_file>C:\Users\alumno\pra2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 16" >
+      <vfs_project />
+      <vfs_file>C:\Users\alumno\pra2\src\d_conjunto.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
