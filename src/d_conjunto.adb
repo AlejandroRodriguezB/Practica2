@@ -38,6 +38,22 @@ package body d_conjunto is
       x:= c(k);
    end obtener;
 
+   --procedure busqueda(s : in conjunto; k: in key; x: out item) is
+   --   encontrado: boolean;
+   --   it : iterador;
+   --begin
+   --   primero(s, it); encontrado := false;
+    --  while es_valido(it) and not encontrado loop
+   --      obtener(s, it, k, x);
+   --      if p(k, x) then  encontrado:= true;
+   --      else  siguiente(s, it);
+   --      end if;
+   --   end loop;
+   --   if not encontrado then poner(s,k,1);
+   --   else actualiza(s,k,x => +1);
+    --  end if;
+   --end busqueda;
+
    procedure cvacio(s:out conjunto) is --O(n)
       e: existencia renames s.e;
    begin
@@ -60,13 +76,15 @@ package body d_conjunto is
       if not e(k)then raise no_existe;end if ;
       c(k):= x;
    end actualiza;
-   procedure consultar(s:in conjunto; k:in key; x:out item)
+
+   function consultar(s:in conjunto; k:in key; x:out item) return boolean
    is
       e: existencia renames s.e;
       c: contenido renames s.c;
    begin
-      if not e(k)then raise no_existe;end if ;
+      if not e(k)then return False;end if ;
       x:= c(k);
+      return True;
    end consultar;
 
    procedure borrar(s:in out conjunto; k: in key) is

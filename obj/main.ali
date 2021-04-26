@@ -1,0 +1,102 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		a4ccab1d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W d_conjunto%s		d_conjunto.adb		d_conjunto.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D d_conjunto.ads	20210426154424 d771e865 d_conjunto%s
+D d_conjunto.adb	20210426154432 55bcc59f d_conjunto%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D main.adb		20210426162152 bd9b3f08 main%b
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r22 2r6 2r30
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 14|2w10 2r34
+X 7 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r26
+52P9*File_Type 14|10r16
+53n23*In_File{53E9} 14|16r28
+92U14*Open 14|16s4
+94e7 Mode{53E9} 14|16r20
+95a7 Name{string} 14|16r37
+98U14*Close 14|41s4
+183V13*End_Of_File{boolean} 14|20s14
+208U14*Put 14|47s7
+219U14*Get_Immediate 14|18s4 22s7
+242U14*Put 14|46s7 48s7
+X 8 a-tiinio.ads
+66U14*Put 14|49s7[3|18]
+X 10 d_conjunto.ads
+2E9 key 14|6r50
+3+9 item 14|6r66
+4k9*d_conjunto 37e18 14|3w6 6r39
+6R9 conjunto 14|9r6[6]
+7R9 iterador 14|14r9[6]
+14U14 primero 14|28s7[6] 42s4[6]
+15U14 siguiente 14|32s16[6] 50s7[6]
+16V13 es_valido{boolean} 14|29s13[6] 43s10[6]
+17U14 obtener 14|30s10[6] 44s7[6]
+20U14 cvacio 14|17s4[6]
+21U14 poner 14|19s4[6] 35s30[6]
+22V13 consultar{boolean} 14|31s13[6]
+24U14 actualiza 14|36s12[6]
+24i53 x{integer} 14|36r38[6]
+X 14 main.adb
+4U11*Main 4b11 54l5 54t9
+5E12 alfabet{character} 6r57 19r12 30r25 31r25 35r38 36r24 44r22 47r11
+6K12 d_taula_frequencies[10|4] 7r8
+9r4 c{10|6R9[6]} 17m11 19m10 19r10 28r15 30r18 31r23 32r26 35m36 35r36 36m22
+. 36r22 42r12 44r15 50r17
+10p4 f_entrada{7|52P9} 16m9 16r9 18r18 20r26 22r21 41m10 41r10
+11e4 Char{character} 18m28 19r20 22m31 30m33 30r33 31r33 35r46 36r32 44m30
+. 44r30 47r19
+12i4 int{integer} 30m40 31m39 31r39 36r43 44m37 49r11
+13b4 encontrado{boolean} 28m23 29r35 31m49 35r14
+14r4 it{10|7R9[6]} 28m18 29r23 30r21 32m29 32r29 42m15 43r20 44r18 50m20
+. 50r20
+
