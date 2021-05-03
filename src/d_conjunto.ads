@@ -15,7 +15,6 @@ package d_conjunto is
    procedure siguiente(s: in conjunto; it : in out iterador);
    function es_valido(it: in iterador) return boolean;
    procedure obtener(s: in conjunto; it :in iterador; k: out key; x: out item);
-   --procedure busqueda(s : in conjunto; k: in key; x: out item);
 
    procedure cvacio (s:out conjunto);
    procedure poner (s:in out conjunto; k:in key; x:in item);

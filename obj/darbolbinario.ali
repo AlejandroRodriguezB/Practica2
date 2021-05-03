@@ -1,0 +1,46 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U darbolbinario%s	darbolbinario.ads	6cd38009 EE OO PK GE IL
+
+D darbolbinario.ads	20210503153922 6cd38009 darbolbinario%s
+X 1 darbolbinario.ads
+2+10 elem 11r59 12r42
+3k10*darbolbinario 2z10 17E9 30l6 30e19
+4R10*arbol 9r30 10r31 11r29 11r46 12r27 13r26 13r42 14r26 14r42 25c9 27e14
+6X4*mal_uso
+7X4*espacio_desbordado
+9U15*avacio 9<22
+9r22 t{4R10}
+10V14*esta_vacio{boolean} 10>25
+10r25 t{4R10}
+11U15*graft 11<21 11>36 11>39 11>53
+11r21 t{4R10}
+11r36 lt{4R10}
+11r39 rt{4R10}
+11*53 x{2+10}
+12U15*raiz 12>20 12<34
+12r20 t{4R10}
+12*34 x{2+10}
+13U15*izq 13>19 13<33
+13r19 t{4R10}
+13r33 lt{4R10}
+14U15*der 14>19 14<33
+14r19 t{4R10}
+14r33 rt{4R10}
+17R9 nodo 18r25 20c9 23e14
+18P9 pnodo(17R9) 26r13
+21e7 caracter{character}
+22i7 frequencia{integer}
+26p7 raiz{18P9}
+

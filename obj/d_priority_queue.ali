@@ -1,0 +1,43 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U d_priority_queue%s	d_priority_queue.ads	07464a0e EE OO PK GE IL
+
+D d_priority_queue.ads	20210503155030 07464a0e d_priority_queue%s
+X 1 d_priority_queue.ads
+3i4 size{positive} 20r32
+5+9 item 7r34 9r34 15r53 17r54 20r40
+7V19 "<"{boolean} 7>23 7>26
+7*23 x1{5+9}
+7*26 x2{5+9}
+9V19 ">"{boolean} 9>23 9>26
+9*23 x1{5+9}
+9*26 x2{5+9}
+10k9*d_priority_queue 3z4 5z9 7z19 9z19 20E9 26l5 26e21
+11R9*priority_queue 14r29 15r30 16r39 17r31 18r29 21c9 24e14
+12X4*space_overflow
+13X4*bad_use
+14U14*empty 14<21
+14r21 q{11R9}
+15U14*put 15=19 15>46
+15r19 q{11R9}
+15*46 x{5+9}
+16U14*delete_least 16=28
+16r28 q{11R9}
+17V13*get_least{5+9} 17>24
+17r24 q{11R9}
+18V13*is_empty{boolean} 18>23
+18r23 q{11R9}
+20A9 mem_space(5+9)<integer> 22r10
+22a7 a{20A9}
+23i7 n{natural}
+

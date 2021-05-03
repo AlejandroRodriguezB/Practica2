@@ -12,6 +12,7 @@ procedure Main is
    int:Integer;
    encontrado: boolean;
    it : iterador;
+   alfa : alfabet;
 begin
    Open(f_entrada, Mode => In_File, Name => "entrada.txt"); --abrimos el fichero que contiene los texto
    cvacio(c);
@@ -20,20 +21,21 @@ begin
    while not End_Of_File(f_entrada) loop
 
       Get_Immediate(f_entrada,Char);
-      --Put_Line("elemento: " & Char);
+      alfa:=alfabet(Char);
+      --Put_Line("elemento: " & Character(alfa));
       --consultar(c,alfabet(Char),int);
      -- if not es_valido(alfabet(Char)) then poner(c,alfabet(Char),1);
       --else actualiza(c,alfabet(Char),x => 1); -- +1 no 1
      -- end if;
       primero(c, it); encontrado := false; --pruebas
       while es_valido(it) and not encontrado loop
-         obtener(c, it, alfabet(Char), int);
-         if consultar(c,alfabet(Char),int) then encontrado:= true;
+         obtener(c, it, alfa, int);
+         if consultar(c,alfa,int) then encontrado:= true;
          else  siguiente(c, it);
          end if;
       end loop;
-      if not encontrado then poner(c,alfabet(Char),1);
-      else actualiza(c,alfabet(Char),x => int+1);
+      if not encontrado then poner(c,alfa,1);
+      else actualiza(c,alfa,x => int+1);
       end if;
 
 
